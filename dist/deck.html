@@ -8,6 +8,7 @@
     <script src="../node_modules/jquery/dist/jquery.min.js"></script>    
     <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="../assets/css/style.css">
+    <script src="../assets/js/slider.js" async ></script>
     <title>Deck List</title>
 </head>
 <body>
@@ -21,6 +22,9 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#">Deck List</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="form.html">Formulaire</a>
+                    </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Note</a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -30,6 +34,28 @@
                 </ul>
             </div>
         </nav>
+        <div class="jumbotron jumbotron-fluid">
+            <div class="slider">
+                <span class="previous"><img class="arrow" src="../assets/arrow.png" alt="arrow"></span>
+                    <div class="slide slide_1 active">
+                        <h1>Créature</h1>
+                        <p>Number : 0</p>
+                    </div>
+                    <div class="slide slide_2">
+                        <h1>Spell</h1>
+                        <p>Number : 34</p>
+                    </div>
+                    <div class="slide slide_3">
+                        <h1>Lands</h1>
+                        <p>Number : 24</p>
+                    </div>
+                    <div class="slide slide_4">
+                        <h1>Planeswalker</h1>
+                        <p>Number : 2</p>
+                    </div>
+                <span class="next"><img class="arrow" src="../assets/arrow.png" alt="arrow"></span>
+            </div>
+          </div>
         <div class="container">
             <div class="row">
                 <div class="col" align="center">
