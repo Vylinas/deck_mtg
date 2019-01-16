@@ -29,6 +29,10 @@ const displayErrors = function (e) {
             newRowError.appendChild(newError);
             errorsSpace.appendChild(newRowError);
         });
+        let newRowError = document.createElement("p");
+        let newError    = document.createTextNode("¯\\_(ツ)_/¯");
+        newRowError.appendChild(newError);
+        errorsSpace.appendChild(newRowError);
     }
 }
 
